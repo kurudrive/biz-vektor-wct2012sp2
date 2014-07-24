@@ -718,7 +718,7 @@ background: linear-gradient(#ffffff, #CCF2FF);
 /*-------------------------------------------*/
 #content.wide	{ display:block; overflow:hidden; }
 #content #sitemapPostList { margin-top:20px; }
-#content #sitemapPostList h5	{ margin:0px;padding:0px; font-weight:lighter;font-size:14px; }
+#content #sitemapPostList h5	{ margin:0px 0 10px;padding:0px; font-weight:lighter;font-size:14px; }
 #content ul.linkList	{ margin:0px;padding:0px; font-size:85.7%; }
 #content ul.linkList li	{ list-style:none;margin-bottom:0px; }
 #content ul.linkList li a	{ background:url(../images/icon_arrow1_gray.gif) left 8px no-repeat; padding:5px 15px; display:block;text-decoration:none; color:#666;}
