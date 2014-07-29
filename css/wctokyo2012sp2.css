@@ -398,10 +398,10 @@ background: linear-gradient(#61B3FF, #008FEF);
 /*-------------------------------------------*/
 .paging	{ display:block; overflow:hidden; padding:20px 0px 20px; text-align:center;}
 .paging span,
-.paging a	{ margin:0px 2px; padding:6px 12px;color:#008FEF;border:1px solid #008FEF; text-decoration:none; border-radius:3px; }
+.paging a	{ margin:0px 1px; padding:6px 10px;color:#008FEF;border:1px solid #008FEF; text-decoration:none; border-radius:3px; }
 .paging span.current,
 .paging a:hover	{ background-color:#008FEF;color:#fff !important; text-decoration:none; }
-.paging span.pageIndex { display:none; }
+.paging span.txt_hellip { border:none;margin:0;padding:6px 0px; }
 
 /*			.infoList
 -------------------------------------------------------------- */
