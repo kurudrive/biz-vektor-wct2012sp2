@@ -481,7 +481,9 @@ background: linear-gradient(#61B3FF, #008FEF);
 /*-------------------------------------------*/
 /*	#sideTower
 /*-------------------------------------------*/
+.sideTower .localSection,
 #sideTower .localSection	{ margin-bottom:50px; }
+.sideTower .localHead,
 #sideTower .localHead	{ font-size:14px; color:#FFF; padding:12px 10px 10px; font-weight:bold; position:relative; font-family:"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif; position: relative;border:1px solid #5197d5;text-shadow:0 -1px 0 rgba(0,0,0,0.4);
 box-shadow: inset 0 1px 0px rgba(255,255,255,0.4);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(1.00, #0390f0), color-stop(0.00, #61b3ff));
@@ -493,6 +495,21 @@ box-shadow: inset 0 1px 0px rgba(255,255,255,0.4);
 	-ms-filter: "progid:DXImageTransform.Microsoft.Gradient(StartColorStr=#61B3FF, EndColorStr=#008FEF)";
 	behavior: url(../js/PIE.htc);
 }
+.sideTower .localHead a	{ text-decoration:none !important;color:#FFF !important; }
+.sideTower .localHead a:hover	{ text-decoration:underline; }
+.sideTower .sideWidget 	{ margin:0 0 20px; }
+.sideTower .sideWidget h4	{ clear:both; font-size:14px;margin:0px 0px 15px; padding:4px 0px 2px 12px; border-left-style:solid; border-left-width:3px; background-color:#f5f5f5; }
+.sideTower .sideWidget li	{ list-style:none;border-bottom:1px solid #ccc; line-height:121.4%;  }
+.sideTower .sideWidget li a	{ display:block;padding:13px 10px 11px 28px; text-decoration:none; color:#666; background:url(../images/icon_arrow1_gray.gif) 10px 50% no-repeat; }
+.sideTower .sideWidget li a:hover,
+.sideTower .sideWidget li.current_page_item a,
+.sideTower .sideWidget li.current-cat a	{ background-color:#cef1ff;}
+.sideTower .sideWidget li ul	{ display:block;margin:0px; }
+.sideTower .sideWidget li ul	li { display:block;border-bottom:none;border-top:1px solid #ccc; }
+.sideTower .sideWidget li ul	li a,
+.sideTower .sideWidget li.current-cat ul li a,
+.sideTower .sideWidget li.current_page_item ul li a		{ padding:11px 10px 9px 28px;background:url(../images/icon_arrow2_gray.gif) 12px 14px no-repeat; }
+
 #sideTower .localHead a	{ text-decoration:none !important;color:#FFF !important; }
 #sideTower .localHead a:hover	{ text-decoration:underline; }
 #sideTower .sideWidget 	{ margin:0 0 20px; }
@@ -509,22 +526,41 @@ box-shadow: inset 0 1px 0px rgba(255,255,255,0.4);
 #sideTower .sideWidget li.current_page_item ul li a		{ padding:11px 10px 9px 28px;background:url(../images/icon_arrow2_gray.gif) 12px 14px no-repeat; }
 
 /* 親ページのアクティブだと背景色が子ページにも適応される為 */
+.sideTower .sideWidget li ul	li a,
+.sideTower .sideWidget li.current-cat ul li a,
+.sideTower .sideWidget li.current_page_item ul li a,
 #sideTower .sideWidget li ul	li a,
 #sideTower .sideWidget li.current-cat ul li a,
 #sideTower .sideWidget li.current_page_item ul li a	{ background-color:inherit; }
 
+.sideTower .sideWidget li ul	li a:hover,
+.sideTower .sideWidget li.current-cat ul li a:hover,
+.sideTower .sideWidget li.current_page_item ul li a:hover,
 #sideTower .sideWidget li ul	li a:hover,
 #sideTower .sideWidget li.current-cat ul li a:hover,
 #sideTower .sideWidget li.current_page_item ul li a:hover	{ background-color:#CEF1FF; }
 
+.sideTower .sideWidget li ul	li.current-cat a,
+.sideTower .sideWidget li ul	li.current_page_item a,
+.sideTower .sideWidget li ul	li a:hover,
 #sideTower .sideWidget li ul	li.current-cat a,
 #sideTower .sideWidget li ul	li.current_page_item a,
 #sideTower .sideWidget li ul	li a:hover { background-image:#efefef; }
 /* 曾孫 */
+.sideTower .sideWidget li ul li ul li a,
 #sideTower .sideWidget li ul li ul li a	{ padding-left:33px; }
+.sideTower .sideWidget li ul li ul li a,
+.sideTower .sideWidget li ul li.current-cat ul li a,
+.sideTower .sideWidget li ul li.current_page_item ul li a,
 #sideTower .sideWidget li ul li ul li a,
 #sideTower .sideWidget li ul li.current-cat ul li a,
 #sideTower .sideWidget li ul li.current_page_item ul li a	{ background-position:17px 14px; }
+
+.sideTower li ul	{ margin-left:15px; }
+.sideTower li.sideBnr	{ margin-bottom:10px; }
+.sideTower li.sideBnr#sideContact a	{ display:block; overflow:hidden; width:auto;width:220px;margin:0px auto; text-align:center;background-color:#008FEF;box-shadow: inset 0 1px 0px rgba(255,255,255,0.5);}
+.sideTower ul#snsBnr		{ border-top:1px solid #ccc;margin-bottom:20px; text-align:center }
+.sideTower ul#snsBnr li		{ border-bottom:1px solid #ccc; }
 
 #sideTower li ul	{ margin-left:15px; }
 #sideTower li.sideBnr	{ margin-bottom:10px; }
@@ -532,8 +568,20 @@ box-shadow: inset 0 1px 0px rgba(255,255,255,0.4);
 #sideTower ul#snsBnr		{ border-top:1px solid #ccc;margin-bottom:20px; text-align:center }
 #sideTower ul#snsBnr li		{ border-bottom:1px solid #ccc; }
 
+.sideTower .sideWidget ul#recentcomments li	{ padding:13px 10px 11px 30px;background:url(../images/icon_arrow1_gray.gif) 10px 50% no-repeat; }
+.sideTower .sideWidget ul#recentcomments li	a	{ padding:0;background:none; }
+
 #sideTower .sideWidget ul#recentcomments li	{ padding:13px 10px 11px 30px;background:url(../images/icon_arrow1_gray.gif) 10px 50% no-repeat; }
 #sideTower .sideWidget ul#recentcomments li	a	{ padding:0;background:none; }
+
+.sideTower .sideWidget select	{ margin:10px 0; padding:5px; width:100%;border:1px solid #ccc;}
+.sideTower .sideWidget select option	{ padding:2px 5px; }
+.sideTower .sideWidget .textwidget	{ padding-top:10px; }
+.sideTower .ttBoxSection { padding: 0; }
+.sideTower .ttBoxSection .ttBox { padding: 13px 10px 11px; border-bottom: 1px solid #eee; font-size: 85.7%; line-height: 135.7%; }
+.sideTower .ttBoxSection .ttBox a { color: #666; }
+.sideTower .ttBoxSection .ttBox .ttBoxThumb { width: 64px; }
+.sideTower .ttBoxSection .ttBox .ttBoxThumb img { border: 1px solid #eee; }
 
 #sideTower .sideWidget select	{ margin:10px 0; padding:5px; width:100%;border:1px solid #ccc;}
 #sideTower .sideWidget select option	{ padding:2px 5px; }
@@ -993,6 +1041,7 @@ box-shadow: inset 0 1px 0 white;
 #gMenu,
 #pagetop,
 #sideTower,
+.sideTower,
 #footMenu,
 #footer,
 #siteBottom	{ display:none !important; }
