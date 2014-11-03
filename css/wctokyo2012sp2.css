@@ -406,7 +406,6 @@ background: linear-gradient(#61B3FF, #008FEF);
 /*			.infoList
 -------------------------------------------------------------- */
 #content .infoList	{ padding-bottom:20px; }
-.page #content .infoList	{ border-top:1px solid #e5e5e5; }
 #content .infoList ul	{ margin:10px 0px 5px; list-style:none; }
 #content .infoList ul li	{ border-bottom:1px solid #ccc; padding:6px 0px;list-style:none;margin-bottom:0px; }
 #content .infoList ul li a	{  }
