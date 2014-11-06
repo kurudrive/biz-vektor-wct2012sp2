@@ -557,13 +557,13 @@ box-shadow: inset 0 1px 0px rgba(255,255,255,0.4);
 
 .sideTower li ul	{ margin-left:15px; }
 .sideTower li.sideBnr	{ margin-bottom:10px; }
-.sideTower li.sideBnr#sideContact a	{ display:block; overflow:hidden; width:auto;width:220px;margin:0px auto; text-align:center;background-color:#008FEF;box-shadow: inset 0 1px 0px rgba(255,255,255,0.5);}
+.sideTower li.sideBnr#sideContact a	{ display:block; overflow:hidden; width:220px;margin:0px auto; text-align:center;background-color:#008FEF;box-shadow: inset 0 1px 0px rgba(255,255,255,0.5);}
 .sideTower ul#snsBnr		{ border-top:1px solid #ccc;margin-bottom:20px; text-align:center }
 .sideTower ul#snsBnr li		{ border-bottom:1px solid #ccc; }
 
 #sideTower li ul	{ margin-left:15px; }
 #sideTower li.sideBnr	{ margin-bottom:10px; }
-#sideTower li.sideBnr#sideContact a	{ display:block; overflow:hidden; width:auto;width:220px;margin:0px auto; text-align:center;background-color:#008FEF;box-shadow: inset 0 1px 0px rgba(255,255,255,0.5);}
+#sideTower li.sideBnr#sideContact a	{ display:block; overflow:hidden; width:220px;margin:0px auto; text-align:center;background-color:#008FEF;box-shadow: inset 0 1px 0px rgba(255,255,255,0.5);}
 #sideTower ul#snsBnr		{ border-top:1px solid #ccc;margin-bottom:20px; text-align:center }
 #sideTower ul#snsBnr li		{ border-bottom:1px solid #ccc; }
 
@@ -992,6 +992,9 @@ box-shadow: inset 0 1px 0 white;
 #content .childPageBox ul li.current_page_item ul li a:hover	{ color:#0490f0; text-decoration:underline;background-image:url(../images/icon_arrow2_red.gif); }
 
 #content .mainFootContact .mainFootBt a img	{ width:100%; }
+
+.sideTower li.sideBnr#sideContact a,
+#sideTower li.sideBnr#sideContact a { width:auto; }
 
 #footMenu .innerBox	{ margin:0px auto;width:950px; }
 

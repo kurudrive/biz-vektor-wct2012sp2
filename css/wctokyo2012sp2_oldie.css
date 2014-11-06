@@ -195,6 +195,9 @@ box-shadow: inset 0 1px 0 white;
 
 #content .mainFootContact .mainFootBt a img	{ width:100%; }
 
+.sideTower li.sideBnr#sideContact a,
+#sideTower li.sideBnr#sideContact a { width:auto; }
+
 #footMenu .innerBox	{ margin:0px auto;width:950px; }
 
 #footerSiteMap	{ width:640px;padding-top:0px; font-size:12px; }
