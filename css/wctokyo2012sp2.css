@@ -446,26 +446,10 @@ background: linear-gradient(#61B3FF, #008FEF);
 #content form input[type=radio] { width:auto; }
 #content form input[type=checkbox] { width:auto; }
 
-/*			trust-form
-/*-------------------------------------------*/
-#content #trust-form	{ width:100%; }
-
-/*			contactform7
-/*-------------------------------------------*/
-#content .wpcf7	{ margin-top:20px; }
-#content form span.wpcf7-form-control-wrap	{ position:relative; display:block; overflow:hidden; clear:both; /*回り込みをしている為*/ }
-#content form span.wpcf7-form-control-wrap .wpcf7-list-item,
-#content form span.wpcf7-form-control-wrap .wpcf7-list-item label	{ display:block; float:left; }
-#content form span.wpcf7-form-control-wrap .wpcf7-list-item	{ padding-top:8px; padding-bottom:8px; }
-#content form span.wpcf7-not-valid-tip	{ position:relative; display:block; overflow:hidden; border:2px solid #0490f0; background-color:#FFeeee;left:0px;top:4px; margin-bottom:0px; }
-#content form div.wpcf7-validation-errors	{ border:2px solid #0490f0; background-color:#FFeeee; text-align:center; }
-#content .wpcf7 dl		{ display:block; overflow:hidden; border-bottom:1px dotted #ccc; }
-#content .wpcf7 dl dt	{ display:block; overflow:hidden; padding:10px;float:left; width:30%; color:#666; font-weight:lighter; }
-#content .wpcf7 dl dd	{ display:block; overflow:hidden; padding:10px;margin-bottom:0px; }
 
 /*		.socialSet
 /*-------------------------------------------*/
-#content #socialSet	{ display:block; overflow:visible; clear:both; padding-top:15px; /* hiddenだとポップアップが見えなくなる */ }
+#content #socialSet	{ display:block; overflow:visible; clear:both; padding-top:15px; }
 #content #socialSet ul { margin:0px 0px 15px; }
 #content #socialSet ul li { display:block;float:left; overflow:visible; background:none; padding:0px; position:relative; }
 #content #socialSet ul li iframe	{ border:none; }
@@ -480,10 +464,8 @@ background: linear-gradient(#61B3FF, #008FEF);
 /*-------------------------------------------*/
 /*	#sideTower
 /*-------------------------------------------*/
-.sideTower .localSection,
-#sideTower .localSection	{ margin-bottom:50px; }
-.sideTower .localHead,
-#sideTower .localHead	{ font-size:14px; color:#FFF; padding:12px 10px 10px; font-weight:bold; position:relative; font-family:"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif; position: relative;border:1px solid #5197d5;text-shadow:0 -1px 0 rgba(0,0,0,0.4);
+.sideTower .localSection	{ margin-bottom:50px; }
+.sideTower .localHead	{ font-size:14px; color:#FFF; padding:12px 10px 10px; font-weight:bold; position:relative; font-family:"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif; position: relative;border:1px solid #5197d5;text-shadow:0 -1px 0 rgba(0,0,0,0.4);
 box-shadow: inset 0 1px 0px rgba(255,255,255,0.4);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(1.00, #0390f0), color-stop(0.00, #61b3ff));
 	background: -webkit-linear-gradient(top, #61b3ff 0%, #0390f0 100%);
