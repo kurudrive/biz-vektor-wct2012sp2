@@ -5,7 +5,7 @@ Plugin URI:
 Description: BizVektorテーマ用の拡張デザインスキン「WCT2012 SP2」を追加するプラグインです。有効化した後に、デザイン選択のプルダウンで「WCT2012 SP2」が選択出来るようになります。
 Author: Vektor,Inc.
 Author URI: http://BizVektor/
-Version: 0.4.2.1
+Version: 0.4.2.2
 License: GNU General Public License
 License URI: license.txt
 */

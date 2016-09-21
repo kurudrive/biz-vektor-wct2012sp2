@@ -82,13 +82,7 @@ sup,
 sub { height: 0; line-height: 1; position: relative; vertical-align: baseline; }
 sup { bottom: 1ex; }
 sub { top: .5ex; }
-input[type="text"],
-input[type="email"],
-textarea { background: #FFF; border: 1px solid #EEE; padding: 2px; font-size:12px;
-	box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);
-	-moz-box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);
-	-webkit-box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);
- }
+
 a         { overflow: hidden; color:#666; }
 a:hover,
 a:active  { color: #0490f0; }
@@ -104,13 +98,9 @@ a.btn,
 .linkBtn.linkBtnM a,
 #content p.linkBtn.linkBtnL a,
 #content p.linkBtn.linkBtnL input,
-#searchform input[type=submit],
+
 input[type=button],
-input[type=submit],
-p.form-submit input[type=submit],
-form#searchform input#searchsubmit,
-#content form input.wpcf7-submit,
-#confirm-button input {
+input[type=submit]{
 font-size:12px;line-height:110%;text-align:center;cursor:pointer;position:relative;width:auto; border:none;display:inline-block; overflow:hidden;position:relative;white-space:nowrap;padding:8px 20px 6px;text-decoration:none;color:#fff !important; border-radius:5px; background-color:#008FEF;
 border-radius:5px;
 }
@@ -436,17 +426,6 @@ background: linear-gradient(#61B3FF, #008FEF);
 #content .infoList .infoListBox div.thumbImage div.thumbImageInner { display:block; overflow:hidden;margin:1px; }
 #content .infoList .infoListBox div.thumbImage div.thumbImageInner img	{ width:98px;height:auto;border:1px solid #ccc; }
 
-
-/*			form
-/*-------------------------------------------*/
-#content form table	{ margin-top:25px; }
-#content form input[type=email],
-#content form input[type=text],
-#content form textarea	{ position:relative; overflow:hidden; padding:5px 10px; margin:5px 5px 5px 0px; width:90%;}
-#content form input[type=radio] { width:auto; }
-#content form input[type=checkbox] { width:auto; }
-
-
 /*		.socialSet
 /*-------------------------------------------*/
 #content #socialSet	{ display:block; overflow:visible; clear:both; padding-top:15px; }
@@ -575,7 +554,7 @@ box-shadow: inset 0 1px 0px rgba(255,255,255,0.4);
 
 form#searchform { padding:5px 0px 5px 7px; background: #CEF1FF; box-shadow: inset 0 1px 0 white; display:block; overflow:hidden; position:relative; border-radius:3px; }
 form#searchform input#s	{ margin:0px 0px 0px 5px; padding:5px; width:70%; float:left; }
-form#searchform input#searchsubmit	{ margin:0px 10px 0px 0px; float:right; background-color:#008FEF; width:15%; color:#FFF;
+form#searchform input#searchsubmit	{ margin:0px 10px 0px 0px; float:right; background-color:#008FEF; color:#FFF;
 border-radius:5px;
 -webkit-border-radius: 5px;
 -moz-border-radius: 5px;
@@ -938,7 +917,6 @@ body.home.one-column #main #container #content	{ float:none;width:100%; }
 body.home.one-column #main #container #sideTower	{ float:none; display:none; }
 
 form#searchform input#s	{width:120px; }
-form#searchform input#searchsubmit	{ width:20%; }
 
 #topMainBnr			{ width:100%; }
 #topMainBnr img		{ width:950px !important; }
